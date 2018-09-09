@@ -1,67 +1,276 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A: It is a language which consist of instructions to implement and produce certain type of output.
+
+
 What jdk contains or composed of and define each components?
+
+It contains: Runtime Interpreter, Compiler, Applet Viewer, Debugger, Class File Disassembler,
+ Header and Stub File Generator, Documentation Generator, Applet Demos, and API Source Code.
+
 What is IDE?
+
+A: It stands for indegrated development kit.
+
 What are the IDEs available in the market to support java?
+
+A: The different IDEs are: eclipse, IntelliJ IDEA, BlueJ, and netBeans.
+
 Explain the entire java life cycle.
+
+A: After we write codes through the Java editors like Eclipse or Intellij then the edititor creates
+the source code. Then we run the codes which calls the Java compiler (Javac) to compile the source
+code to produce the bytecodes. Then the bytecodes are loaded into Java virtual machine (JVM) and
+JVM does the interpreting, using just in time operator. Then it sends the code to the operating
+system and operating system shows us the output.
+
 what is class?
+
+A: It is the blue print that is used to instantiate an object.
+
 What is object?
+
+A: It is and instance of class, the instantiated out of it.
+
 What is the entry point of an application?
+
+A: The entry point of an application is main method.
+
 Why main is static?
+
+A: The  main method is static in nature, which  means that this method can be directly called,
+without having to instantiate an object of a class. Therefore, main method in every java program
+is declared static and it is automatically called to execute a Java program.
+
 Which class is the superclass of all classes?
+
+A: The Object class defined in the java.lang package is called the superclass for alll classes.
+
 What is difference between path and classpath variables?
+
+A: Path is an environment variable which is used by the operating system to find the executables.
+Classpath is an environment variable which is used by the Java compiler to find the path, of
+classes.ie in J2EE we give the path of jar files. 2).PATH is nothing but setting up an
+environment for operating system.
+
 What is the difference between an Interface and Abstract class?
+
+A: Interface have all abstract method declared, no method body. Abstract class can have
+both Abstract and non Abstract method.
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+
+A: No you cannot instantiate it from interface and abstract class. We can only create instance
+of  other classes bye extending the abstract class.
+
+Because it's abstract and an object is concrete. An abstract class is sort of like a template,
+or an empty/partially empty structure, you have to extend it and build on it before you can use
+it.
+
 what is Access Specifier?
+
+A: Access modifiers is a keyword in object-oriented languages that set the
+accessibility of classes, methods, and other members.
+
 What is OOP ? Define each feature of java OOP.
+
+A: OOP stands for object orientated programming and it has four components such as:
+Abstraction, Encapsulations, Inheritance, and Polymorphism. Abstraction is implantation
+hiding where as encapsulation is data hiding to improve security of data. Inheritance is
+an apparatus that helps a class to inherit characteristics such as methods and fields of
+another class. Finally polymorphism which is a concept that facilitates a super class,
+where a reference variable that can take many forms.
+
 What is Java Package and which package is imported by default?
+
+A: A package organizes a set of related classes and interfaces and Java.lang
+ is imported by default.
+
+
 What is API? Name list of API that you have used so far.
+
+A: It stands for application programming interface; it is a collection of classes that
+ are stored in java development kit. The common JAVA api used are java.sql, java.text,
+ java.util, java.lang, java.io.FileInputStream, and Java.io.IOException.
+
+
+
 Does java support multiple inheritance, explain why or why not?
+
+A: No it does not because Java only allows one inhertance and to get around this
+limitation java allows interface.
+
 What is method overloading and when it happens?
+
+A: Method Overloading is a feature that allows a class to have more than one method having
+the same name, if their argument lists are different. It takes place in compile time.
+
 Explain exceptions in java and how to handle it.
+
+A: An exceptions is a problem that shows up during the execution of a program. When an Exception
+occurs the normal flow of the program is disrupted and the program/Application terminates
+abnormally. We can either use the try-catch-finally approach to handle all kinds of exceptions. Or you can use the
+try-with-resource approach which allows an easier cleanup process for resources.
+
 What is static keyword in java? How it has been used in variables and methods ?
+
+A:
+
 What is final and how it has been used variables and methods?
+
+A:
+
 What is final, finally and finalize?
+
+A:
+
 What is a constructor ?
+
+A:
+
+
 Can we have multiple constructors in a class?
+
+A:
+
 If we don't have a constructor declared, what is called during the object creation?
+
+A:
+
 What is "this" keyword in java ?
+
+A:
+
 What is "super" keyword in java? How many possible way can you use?
+
+A:
+
 What is JVM stand for ?
+
+A:
+
 Is JVM platform independent?
+
+A:
+
 What version of java are you using?
+
+A:
+
 What is JAR stand for ?
+
+A:
+
 What is the difference between JDK and JVM?
+
+A:
+
 What is the difference between JVM and JRE?
+
+A:
+
 What is compile time and run time?
+
+A:
+
 What is heap?
+
+A:
 How java manage it's memory?
+
+A:
 What is the difference between String, StringBuffer and StringBuilder?
+
+A:
+
 What is Singleton class?
+
+A:
+
 What is Serialization and Deserialization?
+
+A:
+
 when to use transient variable in java?
+
+A:
 Difference between while and do..while loop?
+
+A:
+
 What is Enum?
+
+A:
+
 What is Iterator?
+
 Which one will take more memory, an int or Integer?
+
+A:
+
 Why is String Immutable in Java?
+
+A:
+
 What is constructor chaining in Java?
+
+A:
+
 The difference between Serial and Parallel Garbage Collector?
+
+A:
+
 What is JIT stands for?
+
+A:
+
 Explain Java Heap space and Garbage collection?
+
+A:
+
 Can you guarantee the garbage collection process?
+
+A:
+
 What is the difference between stack and heap in Java?
+
+A:
+
 What is reflection in java and why is it useful?
+
+A:
+
 what is multithreading in java?
+
+A:
 What is the use of synchronization in Java?
+
+A:
+
 What is Framework?
+
+A:
+
 What are the testing Framework available in java?
+
+A:
+
 Difference between jUnit and testNG?
+
+A:
+
 What are the dependencies for this project?
+
+A:
+
 what is dependency injection in java?
+
+A:
+
 What is static binding and dynamic binding?
+
+A:
 
 
 
