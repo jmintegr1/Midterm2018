@@ -14,9 +14,40 @@ public class FortuneEmployee {
 	 *
 	 **/
 	public static void main(String[] args) {
-		
+
+		// create a Employee object
+
+
+
+		Person employee = new EmployeeGO("Test Incorporated","Jewell");
+
+		System.out.println(((EmployeeGo) employee).employeeId());
+
+		System.out.println(((EmployeeGo) employee).employeeName());
+
+		System.out.println(((EmployeeGo) employee).getDept());
+
+		System.out.println(((EmployeeGO) employee).getGender());
+
+		System.out.println(((EmployeeGo) employee).getLocation());
+
+		System.out.println(((EmployeeGo) employee).calculateSalary());
+
+		System.out.println(((EmployeeGo) employee).calculateCommission());
+
+		employee.personalDevelopmentBudget();
+
+		((EmployeeGo) employee).benefitLayout();
+
+		employee.job();
+
+		employee.function();
+
+		System.out.println();
+
+		((EmployeeGo) employee).calculateEmployeePension();
+
+		((EmployeeGO) employee).calculateEmployeeBonus();
 
 
 	}
-
-}

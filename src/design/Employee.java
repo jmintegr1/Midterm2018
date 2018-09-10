@@ -11,13 +11,13 @@ public interface Employee {
 	//and then implement these in a concrete class.
 	
 	//employeeId() will return employee id.
-	public int employeeId(2358);
+	public int employeeId();
 	
 	//employeeName() will return employee name
-	public String employeeName("Abdul Kuduz");
+	public String employeeName();
 	
 	//assignDepartment() will assign employee to departments
-    public void assignDepartment("Accounting");
+    public void assignDepartment();
 	
 	//calculate employee salary
 	public int calculateSalary();
