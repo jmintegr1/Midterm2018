@@ -90,7 +90,7 @@ public class EmployeeInfo extends AbstractEmployee{
 
 	@Override
 	public void describeCompany() {
-		companyName = "Selenium Group 2018";
+		companyName = "G Incorporated";
 		System.out.println("In the year 2018 " + founderName + " founded the " + companyName + " located at " + address + ".");
 	}
 
@@ -137,10 +137,10 @@ public class EmployeeInfo extends AbstractEmployee{
 			yearlyBonus = salary * 0.06 * 12;
 		} else if (performance == 2) {
 			yearlyBonus = 0;
-			System.out.println("Your performance is poor, try to improve.");
+			System.out.println("Your performance is poor, really focus and work harder.");
 		} else {
 			yearlyBonus = 0;
-			System.out.println("You are fired.");
+			System.out.println("Keep working, one code at a time.");
 		}
 		return yearlyBonus;
 	}
@@ -156,7 +156,7 @@ public class EmployeeInfo extends AbstractEmployee{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please enter start date in format (example: May,2018): ");
 		String joiningDate = sc.nextLine();
-		System.out.println("Please enter today's date in format (example: August,2017): ");
+		System.out.println("Please enter today's date in format (example: August 09,2017): ");
 		String todaysDate = sc.nextLine();
 		String convertedJoiningDate = DateConversion.convertDate(joiningDate); // 5/2015
 		String convertedTodaysDate = DateConversion.convertDate(todaysDate); // 12/2017

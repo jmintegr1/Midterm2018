@@ -22,10 +22,10 @@ public class FortuneEmployee {
 		String mission = "We guide you towards your dream";
 		String vision = "Be a great place to work where people are inspired to be the best they can be.";
 
-		EmployeeInfo employee1 = new EmployeeInfo("Mr. Asif", 101);
-		EmployeeInfo employee2 = new EmployeeInfo("Ms. Tanvir", 102);
-		EmployeeInfo employee3 = new EmployeeInfo("Ms. David", 103);
-		EmployeeInfo employee4 = new EmployeeInfo("Ms. Jhon", 104);
+		EmployeeInfo employee1 = new EmployeeInfo("Mr. Kudoz", 101);
+		EmployeeInfo employee2 = new EmployeeInfo("Ms. Abdul", 102);
+		EmployeeInfo employee3 = new EmployeeInfo("Ms. Jennir", 103);
+		EmployeeInfo employee4 = new EmployeeInfo("Ms. Kelly", 104);
 		EmployeeInfo employee5 = new EmployeeInfo("Mr. Steve", 105);
 
 		employee1.assignDepartment("HR");
