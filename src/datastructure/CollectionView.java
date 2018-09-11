@@ -1,7 +1,7 @@
 package datastructure;
-
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Map;
 
 public class CollectionView {
 
@@ -15,9 +15,11 @@ public static void main(String[] args) {
         map.put(3, "Denver");
         map.put(4, "Boston");
         map.put(5, "San Jose");
-        map.put(5, "Seattle");
+        map.put(6, "Seattle");
 
-
+        for (Map.Entry<Integer, String> Jewell : map.entrySet()) {
+                System.out.println("collection view :" + Jewell.getKey()
+                        + ":" + Jewell.getValue());
+        }
     }
-
 }
