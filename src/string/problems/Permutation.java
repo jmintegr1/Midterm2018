@@ -15,7 +15,6 @@ public class Permutation {
         permutation("", "ABC");
 
     }
-
     public static void permutation(String prefix, String sg){
         int n = sg.length();
 
